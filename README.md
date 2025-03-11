@@ -11,7 +11,7 @@ The goal of CursBioR is to ...
 You can install the development version of CursBioR like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+pak::pak("bruigtp/CursBioR")
 ```
 
 ## Example
@@ -20,6 +20,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(CursBioR)
-## basic example code
+
+install_course(destdir = "C:\users\user\Desktop...")
 ```
 

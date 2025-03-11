@@ -15,7 +15,7 @@ install_course <- function(destdir = getOption("usethis.destdir")) {
 
     "bruigtp/curs_bioestadistica_R",
 
-    destdir = dir
+    destdir = destdir
 
   )
 

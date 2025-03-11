@@ -4,7 +4,11 @@
 \alias{install_course}
 \title{Install workshop materials}
 \usage{
-install_course(destdir = getOption("usethis.destdir"), session = NULL)
+install_course(
+  destdir = getOption("usethis.destdir"),
+  session = NULL,
+  overwrite = FALSE
+)
 }
 \arguments{
 \item{destdir}{The path on your computer where you would like the workshop
@@ -13,9 +17,11 @@ desktop, although you can tell `install_course()` exactly where you want
 it to download.}
 
 \item{session}{Integer belonging to the session number that you want to install.}
+
+\item{overwrite}{logical indicating if the directory has to be overwritten or not.}
 }
 \description{
-`install_course()` will install the workshop materials for the workshop
+`install_course()` will install the workshop materials for the workshop in a new repository.
 Curs aplicat de bioestadística amb R. Then, it will open a new RStudio
 Project containing the files you'll need.
 }
